@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <div className="h-full w-full flex">
       <SideBar />
-      <div className="grow">
+      <div className="grow py-5 px-10">
         <Outlet />
       </div>
     </div>

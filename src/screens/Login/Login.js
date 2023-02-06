@@ -7,7 +7,7 @@ const Login = () => {
     <div className="relative h-screen w-full flex items-center justify-center">
       <div className="w-1/2 flex items-center justify-center shrink-0">
         <div className="text-gray-500 mb-10 absolute top-3 left-5">
-          <div className="text-2xl font-semibold flex items-center">
+          <div className="text-lg text-black font-bold flex items-center">
             {/* <img
             src="https://investing-iq.netlify.app/static/media/bull-image.83481809a06e40fc7913.png"
             width={50}
@@ -15,7 +15,6 @@ const Login = () => {
           /> */}
             Investing IQ
           </div>
-          <div>We make investment easy</div>
         </div>
         <LoginForm />
       </div>
