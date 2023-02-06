@@ -10,7 +10,7 @@ const Stocks = () => {
     <div>
       <Header listType={listType} setListType={setListType} />
       <div className="mt-20">
-        {listType === "grid" ? <GridView /> : <ListView />}
+        {listType === "grid" ? <GridView /> : <ListView buttonTitle='Add to watchlist' />}
       </div>
     </div>
   );

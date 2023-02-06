@@ -13,7 +13,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="text-base font-medium text-gray-500">
+    <div className="text-lg font-medium text-gray-500">
       {message}, Priyanshu Bhardwaj!
     </div>
   );

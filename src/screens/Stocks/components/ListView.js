@@ -34,14 +34,14 @@ const data = [
   },
 ];
 
-const ListView = () => {
+const ListView = ({buttonTitle,icon}) => {
   return (
     <div>
       {data.map((item, index) => {
         return (
           <div className="flex items-center gap-10 border-t">
             <div className="text-gray-500">{index + 1}.</div>
-            <ListCard item={item} />
+            <ListCard item={item} buttonTitle={buttonTitle} icon={icon} />
           </div>
         );
       })}

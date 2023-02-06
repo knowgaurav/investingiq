@@ -13,7 +13,7 @@ const GridCard = ({ item }) => {
       </div>
       <div className="grid grid-cols-2">
         <div>
-          <div className="font-medium text-gray-500">Price:</div>
+          <div className="font-medium text-gray-500 italic">Price:</div>
           <div className="font-medium">{item.price}</div>
         </div>
       </div>
